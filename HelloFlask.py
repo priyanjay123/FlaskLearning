@@ -7,5 +7,4 @@ app = Flask(__name__)
 def hello():
     return "Hello Flask"
 
-
 app.run(debug=True)
